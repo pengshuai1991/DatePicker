@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="jorchi.datepickertest.MainActivity">
+
+
+    <Button
+        android:id="@+id/getdate_btn"
+        android:layout_width="100dip"
+        android:layout_height="40dip"
+        android:layout_marginRight="20dip"
+        android:background="#dedede"
+        android:text="选择时间"
+        android:textSize="18dip"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/date_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:textSize="18dip"
+        android:text="显示选择的日期" />
+
+
+</LinearLayout>
